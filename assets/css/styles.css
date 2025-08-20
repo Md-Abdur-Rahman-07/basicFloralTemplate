@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+i {
+    color: #69AF74;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Raleway", sans-serif;
+}
+
+/* header styles */
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 150px;
+    border-bottom: 3px solid #F2F2EE;
+
+}
+
+.header-top .logo {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.logo img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.register a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.register a:hover {
+    color: #69AF74;
+
+}
+
+.cart i,
+.cart span {
+    font-size: 25px;
+    color: #69AF74;
+}
+
+nav {
+    border-bottom: 3px solid #F2F2EE;
+}
+
+nav .navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav {
+    gap: 2rem;
+}
+
+.nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* footer styles */
+footer h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #292E2B;
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+    color: #A3A4A0;
+}
+
+footer a:hover {
+
+    color: #000000;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer ul li a {
+    font-size: 18px;
+}
+
+footer p {
+    margin-bottom: 0px;
+    color: #A3A4A0;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.social span {
+    font-size: 25px;
+    color: #A3A4A0;
+}
+
+.footer-top {
+    border-top: 5px solid #F2F2EE;
+    border-bottom: 5px solid #F2F2EE;
+    margin-top: 5rem;
+}
+
+button.btn-join {
+    background-color: #69AF74;
+    color: #fff;
+    font-weight: 600;
+}
+
+.f-border {
+    border-left: 3px solid #F2F2EE;
+    border-right: 3px solid #F2F2EE;
+}
+
+.footer-bottom img {
+    width: 350px;
+
+}
+
+/* home page styles */
+.banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.flash-cards .row {
+    justify-content: center;
+    gap: 4rem;
+}
+
+.flash-card {
+    color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+}
+
+.f-c-1 {
+    background-image: url('../img/pexels-nurseryart-371052.jpg');
+}
+
+.f-c-2 {
+    background-image: url('../img/pexels-secret-garden-333350-2879821.jpg');
+}
+
+.f-c-3 {
+    background-image: url('../img/pexels-vuralyavas-1076607.jpg');
+}
+
+.flash-card {
+    position: relative;
+    z-index: 0;
+}
+
+.flash-card::before,
+.about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.flash-card h2 {
+    font-size: 25px;
+    margin: 20px 0;
+
+}
+
+.flash-card p {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.best-sellers h2,
+.flash-cards h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 20px 0 40px 0;
+    text-align: center;
+}
+
+.best-sellers img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.best-sellers a {
+    text-decoration: none;
+    color: #000;
+}
+
+.best-sellers a:hover {
+    color: #000000;
+}
+
+.about {
+    background-image: url('../img/pexels-peter-lengacher-803620-5969001.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 400px;
+    margin: 10px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.about h2 {
+    color: #FFFFFF;
+}
+
+.about div {
+    background-color: #FFFFFF;
+    height: 4px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.about .read {
+    margin-top: 10px;
+    padding: 7px 25px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    width: fit-content;
+    cursor: pointer;
+}
+
+/* about us page styles */
+.about-us {
+    background-color: #F6F6F3;
+}
+
+.about-us p {
+    font-size: 18px;
+    max-width: 1100px;
+    line-height: 30px;
+}
+
+/* gallery page styles */
+.gallery img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    z-index: 9999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.modal-content {
+    max-width: 80vw;
+    max-height: 80vh;
+    margin: auto;
+    object-fit: cover;
+}
+
+.close {
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    user-select: none;
+    border: none;
+    background: none;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-caption {
+    margin: 0 10px 20px 10px;
+    color: #fff;
+}
+
+.caption {
+    display: none;
+}
+
+
+/* media queries for responsiveness */
+@media (max-width:992px) {
+    .row {
+        --bs-gutter-x: 0;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .banner {
+        margin-bottom: 50px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .header-top .logo {
+        top: 4%;
+    }
+
+    .header-top {
+        justify-content: center;
+        align-items: baseline;
+        padding-top: 10px;
+    }
+
+    .modal-caption {
+        margin: 10px;
+
+    }
+
+    .modal-content {
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:768px) {
+    .banner img {
+        height: auto;
+    }
+}
+
+@media (max-width:480px) {
+    .footer-bottom img {
+        width: 80%;
+        margin: auto;
+    }
+}
