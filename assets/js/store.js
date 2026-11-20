@@ -91,7 +91,19 @@ export function toggleWishlist(id) {
   toast(exists ? 'Removed from your favourites.' : 'Saved to your favourites.');
 }
 export function toast(message) {
-  const region = document.getElementById('toast-region');
+  let region = document.getElementById('toast-region');
+  const modal = document.querySelector('dialog[open]');
+  // Keep feedback inside the active dialog so it is not hidden by its inert backdrop.
+  if (modal) {
+    region = modal.querySelector('.dialog-toast-region');
+    if (!region) {
+      region = document.createElement('div');
+      region.className = 'toast-region dialog-toast-region';
+      region.setAttribute('role', 'status');
+      region.setAttribute('aria-live', 'polite');
+      modal.append(region);
+    }
+  }
   if (!region) return;
   const notification = document.createElement('div');
   notification.className = 'toast';
