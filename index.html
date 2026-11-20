@@ -1,193 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-
-    <link rel="icon" href="assets/img/fev.png">
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-
-    <!-- bootstrap icons cdn -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <!-- bootstrap cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aspect Floral Studio | A Little Nature. A Lot of Feeling.</title>
+  <meta name="description" content="Thoughtfully arranged bouquets, garden roses and seasonal flowers. Discover your kind of lovely at Aspect Floral Studio, with same-day delivery across Dubai.">
+  <meta name="theme-color" content="#25483c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aspect Floral Studio | A Little Nature. A Lot of Feeling.">
+  <meta property="og:description" content="For the big moments, the small gestures, and the beauty of an ordinary day. Flowers, made personal. Discover the Aspect collection.">
+  <meta property="og:image" content="assets/img/optimized/hero.webp">
+  <meta property="og:image:alt" content="Soft blush garden roses and white flowers with fresh green foliage">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aspect Floral Studio | Flowers, Made Personal">
+  <meta name="twitter:description" content="Thoughtfully arranged bouquets, garden roses and seasonal flowers, with same-day delivery across Dubai.">
+  <meta name="twitter:image" content="assets/img/optimized/hero.webp">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/cormorant-garamond-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/dm-sans-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/cormorant-garamond-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="module" src="assets/js/app.js"></script>
+  <script type="module" src="assets/js/pages.js"></script>
 </head>
-
 <body>
-    <!-- header -->
-    <header>
-        <div class="header-top px-md-5 px-3">
-            <div class="logo">
-                <img src="assets/img/logo.png" alt="logo">
-            </div>
-            <div class="register">
-                <a href="#">SIGN IN / REGISTER</a>
-            </div>
-            <div class="cart">
-                <span class="bi bi-basket2"></span>
-            </div>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header id="site-header"></header>
+  <main id="main-content">
+    <section class="container hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">FRESHLY PICKED. THOUGHTFULLY GIVEN.</p>
+          <h1 id="hero-title">A little nature.<br><em>A lot of feeling.</em></h1>
+          <p class="hero-description">For the big moments, the small gestures, and the beauty of an ordinary day. Flowers, made personal.</p>
+          <div class="hero-actions"><a class="button button-primary" href="buy.html?category=Bouquets">Shop bouquets</a><a class="text-link" href="about.html">Our story</a></div>
+          <p class="hero-footnote"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 4c0 10-5 15-10 15a6 6 0 0 1-6-6C4 8 9 3 20 4Z"/><path d="M4 20 15 9"/></svg>A little gift for the earth. Free seeds with every fresh bouquet.</p>
         </div>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="buy.html">Buy Now</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <!-- sale banner -->
-        <div class="banner">
-            <img src="assets/img/banner.png" alt="banner">
+        <div class="hero-visual">
+          <img src="assets/img/optimized/hero.webp" srcset="assets/img/optimized/hero-480.webp 480w, assets/img/optimized/hero-960.webp 960w, assets/img/optimized/hero.webp 1600w" sizes="(max-width: 700px) 100vw, 52vw" width="1600" height="2134" alt="A naturally gathered arrangement of blush garden roses, ivory flowers and olive-green foliage" loading="eager" fetchpriority="high" decoding="async">
+          <div class="hero-image-note"><svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M12 8c-7-10-13 1-5 4-8 3-2 14 5 4 7 10 13-1 5-4 8-3 2-14-5-4Z"/><circle cx="12" cy="12" r="2.5"/></svg><span>Made with a little<br>more heart.</span></div>
         </div>
-
-        <!-- 3 flash cards -->
-        <div class="flash-cards container pt-md-5">
-            <h2>Our Services</h2>
-            <div class="row pb-md-5 p-3">
-                <div class="col-md-5 flash-card f-c-1 p-4">
-                    <h2>Contemporary Floral Design</h2>
-                    <p>Experience innovative floral arrangements crafted to inspire. Our contemporary designs blend
-                        creativity with sophistication, catering to professionals in fashion, entertainment, and
-                        corporate sectors. Each arrangement is a unique work of art designed to captivate and impress.
-                    </p>
-                </div>
-                <div class="col-md-5 flash-card f-c-2 p-4">
-                    <h2>Event Coordination & Arrangements</h2>
-                    <p>Our dedicated floral designers work closely with you to create bespoke arrangements for events.
-                        Whether it’s a corporate gala or a personal celebration, we tailor each design to your theme,
-                        budget, and vision—ensuring every detail is impeccably executed for a memorable experience.
-                    </p>
-                </div>
-                <div class="col-md-5 flash-card f-c-3 p-4">
-                    <h2>Native Seed Library</h2>
-                    <p>Emphasizing sustainability, our native seed library offers a variety of indigenous seed mixes.
-                        Free seed packets are included with each bouquet, encouraging eco-friendly gardening and
-                        celebrating local flora. This service not only beautifies your event but also nurtures the
-                        environment.
-                    </p>
-                </div>
-            </div>
-
+      </div>
+    </section>
+    <div class="container trust-strip" aria-label="A little more with every order">
+      <div class="trust-item"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 21V10M12 15C5 15 3 10 4 5c6 0 9 3 8 10ZM12 11c0-5 3-8 8-8 1 5-2 9-8 9"/></svg><div><strong>A gift that keeps growing</strong><span>Free seeds with every fresh bouquet</span></div></div>
+      <div class="trust-item"><svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 5h11v13H3V5ZM14 10h4l3 4v4h-7"/><circle cx="7" cy="18" r="2" fill="var(--surface, white)"/><circle cx="17" cy="18" r="2" fill="var(--surface, white)"/></svg><div><strong>From our studio to your door</strong><span>Same-day Dubai delivery before 2pm</span></div></div>
+      <div class="trust-item"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><path d="m8 12 3 3 5-6"/></svg><div><strong>A little peace of mind</strong><span>Secure demo checkout. No payments.</span></div></div>
+    </div>
+    <section class="container category-section section" aria-labelledby="category-title">
+      <div class="section-heading"><div><p class="eyebrow">A FLOWER FOR EVERY FEELING</p><h2 id="category-title">Find your kind of lovely.</h2></div><a class="text-link" href="buy.html">Explore the collection</a></div>
+      <div id="home-categories" class="category-grid" aria-busy="true" aria-label="Flower categories"><div class="skeleton skeleton-category" aria-hidden="true"></div><div class="skeleton skeleton-category" aria-hidden="true"></div><div class="skeleton skeleton-category" aria-hidden="true"></div><div class="skeleton skeleton-category" aria-hidden="true"></div></div>
+    </section>
+    <section class="container products-section section" aria-labelledby="best-sellers-title">
+      <div class="section-heading"><div><p class="eyebrow">THE ONES YOU COME BACK FOR</p><h2 id="best-sellers-title">Always a good idea.</h2></div><a class="text-link" href="buy.html">Shop all flowers</a></div>
+      <div id="best-sellers" class="product-grid" aria-busy="true" aria-label="Best-selling flowers"><div class="skeleton-card" aria-hidden="true"><div class="skeleton skeleton-image"></div><div class="skeleton skeleton-line"></div></div><div class="skeleton-card" aria-hidden="true"><div class="skeleton skeleton-image"></div><div class="skeleton skeleton-line"></div></div><div class="skeleton-card" aria-hidden="true"><div class="skeleton skeleton-image"></div><div class="skeleton skeleton-line"></div></div><div class="skeleton-card" aria-hidden="true"><div class="skeleton skeleton-image"></div><div class="skeleton skeleton-line"></div></div></div>
+    </section>
+    <section class="container story-banner" aria-labelledby="story-title">
+      <div class="story-banner-image"><img src="assets/img/optimized/garden-gathering.webp" srcset="assets/img/optimized/garden-gathering-480.webp 480w, assets/img/optimized/garden-gathering.webp 960w" sizes="(max-width: 700px) 100vw, 48vw" width="960" height="1440" alt="A loose garden arrangement of cream roses, purple flowers and fresh green stems in soft natural light" loading="lazy" decoding="async"></div>
+      <div class="story-banner-copy"><p class="eyebrow">ROOTED IN SOMETHING GOOD</p><h2 id="story-title">More than flowers.<br><em>A feeling.</em></h2><p>We believe the best gifts feel personal. So we choose every stem with care, leave a little room for nature, and make each arrangement a little different.</p><p>Thoughtfully made. Beautifully given. That is the Aspect way.</p><a class="button button-light" href="about.html">Get to know us</a></div>
+    </section>
+    <section class="container products-section section" aria-labelledby="new-arrivals-title">
+      <div class="section-heading"><div><p class="eyebrow">A NEW SEASON OF LITTLE JOYS</p><h2 id="new-arrivals-title">Fresh from the studio.</h2></div><a class="text-link" href="buy.html">Explore the collection</a></div>
+      <div id="new-arrivals" class="product-grid" aria-busy="true" aria-label="New floral arrivals"><div class="skeleton-card" aria-hidden="true"><div class="skeleton skeleton-image"></div><div class="skeleton skeleton-line"></div></div><div class="skeleton-card" aria-hidden="true"><div class="skeleton skeleton-image"></div><div class="skeleton skeleton-line"></div></div><div class="skeleton-card" aria-hidden="true"><div class="skeleton skeleton-image"></div><div class="skeleton skeleton-line"></div></div><div class="skeleton-card" aria-hidden="true"><div class="skeleton skeleton-image"></div><div class="skeleton skeleton-line"></div></div></div>
+    </section>
+    <section class="testimonials section" aria-labelledby="testimonials-title">
+      <div class="container"><div class="section-heading centered"><div><p class="eyebrow">LITTLE WORDS. LOVELY FEELINGS.</p><h2 id="testimonials-title">The joy goes both ways.</h2></div></div>
+        <div class="review-grid">
+          <figure class="review"><div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&ldquo;The kind of flowers that make you stop and smile every time you walk into the room. Even the wrapping felt special.&rdquo;</blockquote><figcaption><strong>Sarah M.</strong><br><span>A just-because bouquet</span></figcaption></figure>
+          <figure class="review"><div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&ldquo;A beautiful surprise for my mum. The colours were so thoughtfully put together, and the little seed packet was such a sweet touch.&rdquo;</blockquote><figcaption><strong>Omar A.</strong><br><span>A birthday made brighter</span></figcaption></figure>
+          <figure class="review"><div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>&ldquo;Fresh, natural, and even lovelier in person. Exactly the little lift my week needed. I have found my flower people.&rdquo;</blockquote><figcaption><strong>Leila R.</strong><br><span>A little everyday joy</span></figcaption></figure>
         </div>
-
-        <!-- 3 products -->
-        <div class="container best-sellers py-5">
-            <h2>Best Sellers</h2>
-            <div class="row gx-5">
-                <a href="buy.html" class="col-md-4">
-                    <img src="assets/img/1.jpg" alt="product">
-                    <p class="d-flex flex-row justify-content-between py-3">Mix Flower Bouquet: <strong>AED 199</strong>
-                    </p>
-                </a>
-                <a href="buy.html" class="col-md-4">
-                    <img src="assets/img/2.jpg" alt="product">
-                    <p class="d-flex flex-row justify-content-between py-3">Floral Summer Bouquet: <strong>AED
-                            259</strong></p>
-                </a>
-                <a href="buy.html" class="col-md-4">
-                    <img src="assets/img/3.jpg" alt="product">
-                    <p class="d-flex flex-row justify-content-between py-3">Summer Basket: <strong>AED 599</strong></p>
-                </a>
-            </div>
-        </div>
-        <!-- about us card -->
-        <div class="container">
-            <div class="about row text-center">
-                <h2>About Us</h2>
-                <div></div>
-                <a href="about.html" class="read">READ MORE</a>
-            </div>
-        </div>
-    </main>
-
-    <!-- footer -->
-    <footer>
-        <div class="footer-top">
-            <div class="row p-md-5 p-3">
-                <div class="col-md-4 text-center p-4">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="buy.html">Buy Now</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 text-center f-border p-4">
-                    <h3>Contact Us</h3>
-                    <p>Belinda Aspect</p>
-                    <p><strong>Office:</strong> 36 WaterRoad Nowhere WA 2100</p>
-                    <p><strong>Postal:</strong> PO Box 236 Nowhere WA 2100</p>
-                    <p><strong>Telephone:</strong> 61 2 6939 6100</p>
-                    <p><strong>Email:</strong> <a href="mailto:Aspect@hotmail.com">aspect@hotmail.com</a></p>
-
-                    <h3 class="mt-4">Opening Hours</h3>
-                    <p>Mon - Sat: 8am - 7pm</p>
-                    <p>Sun: 10.30 - 6pm</p>
-                </div>
-                <div class="col-md-4 text-center p-4">
-                    <h3>Connect</h3>
-                    <p>Join our mailing list for the latest news & 10% off your first order</p>
-                    <div class="input-group my-3">
-                        <label for="email-input" class="visually-hidden">Email address</label>
-                        <input type="email" id="email-input" class="form-control" placeholder="Enter your email"
-                            aria-label="Email address" required>
-                        <button class="btn btn-join" type="submit" id="button-addon2">JOIN</button>
-                    </div>
-
-
-                    <h3 class="mt-md-5 mt-4">Follow Us</h3>
-                    <div class="social">
-                        <span class="bi bi-twitter" aria-hidden="true"></span>
-                        <span class="bi bi-facebook" aria-hidden="true"></span>
-                        <span class="bi bi-instagram" aria-hidden="true"></span>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom text-center py-4">
-            <p>&copy; 2025 All Rights Reserved.</p>
-            <img src="assets/img/pay.png" alt="payment">
-        </div>
-    </footer>
-
-    <!-- bootstrap js cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        <p class="reviews-note form-note">Illustrative customer stories for this showcase.</p>
+      </div>
+    </section>
+    <section class="container newsletter section" aria-labelledby="newsletter-title">
+      <div class="newsletter-copy"><p class="eyebrow">A LITTLE SOMETHING IN YOUR INBOX</p><h2 id="newsletter-title">Good things are growing.</h2><p>Seasonal blooms, thoughtful ideas, and first dibs on what is new. A little flower joy, now and then.</p></div>
+      <div class="newsletter-form-wrap"><form id="newsletter-form"><label class="sr-only" for="newsletter-email">Your email address</label><div class="newsletter-input"><input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="Your email address" maxlength="254" required><button class="button button-primary" type="submit">Join the list</button></div><p class="form-note">Try our demo subscription. No email is sent or stored.</p></form><p id="newsletter-feedback" class="newsletter-feedback" role="status" hidden></p></div>
+    </section>
+    <noscript><p class="container">Please enable JavaScript to explore our flower collection, save favourites and shop the demo. You can still read <a href="about.html">our story</a>.</p></noscript>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
 </body>
-
 </html>
