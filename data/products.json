@@ -1,0 +1,649 @@
+{
+  "currency": "AED",
+  "categories": [
+    "Bouquets",
+    "Baskets",
+    "Roses",
+    "Peonies",
+    "Tulips",
+    "Dried Flowers",
+    "Gifts"
+  ],
+  "products": [
+    {
+      "id": "mix-flower-bouquet",
+      "slug": "mix-flower-bouquet",
+      "name": "Mix Flower Bouquet",
+      "category": "Bouquets",
+      "price": 199,
+      "compareAtPrice": 229,
+      "rating": 4.8,
+      "reviewCount": 36,
+      "stock": 12,
+      "badge": "Best Seller",
+      "tags": [
+        "fresh",
+        "gift",
+        "seasonal"
+      ],
+      "description": "A joyful mix of peach roses, blush blooms and sculptural foliage. A little everyday beauty, hand-tied just for you.",
+      "details": [
+        "Hand-tied seasonal roses and mixed blooms",
+        "Wrapped in recyclable paper",
+        "Includes a complimentary seed packet",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/mix-flower-bouquet.webp",
+        "assets/img/optimized/mix-flower-bouquet-detail.webp"
+      ],
+      "imageAlt": "A full arrangement of peach and soft pink roses with pale blush flowers",
+      "imagesAlt": [
+        "A full arrangement of peach and soft pink roses with pale blush flowers",
+        "Close-up detail: a full arrangement of peach and soft pink roses with pale blush flowers"
+      ],
+      "featured": true,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "floral-summer-bouquet",
+      "slug": "floral-summer-bouquet",
+      "name": "Floral Summer Bouquet",
+      "category": "Bouquets",
+      "price": 259,
+      "rating": 4.9,
+      "reviewCount": 28,
+      "stock": 9,
+      "badge": "Seasonal",
+      "tags": [
+        "fresh",
+        "colourful",
+        "summer"
+      ],
+      "description": "Bring the flower market home with a generous bunch of tulips in bright, uplifting summer colours.",
+      "details": [
+        "A colourful selection of fresh tulips",
+        "Florist-selected colours change with the season",
+        "Includes a complimentary seed packet",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/floral-summer-bouquet.webp",
+        "assets/img/optimized/floral-summer-bouquet-detail.webp"
+      ],
+      "imageAlt": "Fresh tulips in yellow, pink, purple and red arranged in colourful bunches",
+      "imagesAlt": [
+        "Fresh tulips in yellow, pink, purple and red arranged in colourful bunches",
+        "Close-up detail: fresh tulips in yellow, pink, purple and red arranged in colourful bunches"
+      ],
+      "featured": true,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "summer-basket",
+      "slug": "summer-basket",
+      "name": "Summer Basket",
+      "category": "Baskets",
+      "price": 599,
+      "rating": 4.9,
+      "reviewCount": 19,
+      "stock": 5,
+      "badge": "Signature",
+      "tags": [
+        "basket",
+        "celebration",
+        "gift"
+      ],
+      "description": "A generous garden-inspired arrangement of pink and ivory flowers in a keepsake woven basket. Made for the big moments.",
+      "details": [
+        "Large reusable woven basket",
+        "Arranged and ready to display",
+        "Includes a complimentary seed packet",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/summer-basket.webp",
+        "assets/img/optimized/summer-basket-detail.webp"
+      ],
+      "imageAlt": "Woven handle basket filled with pink roses, white flowers and green foliage",
+      "imagesAlt": [
+        "Woven handle basket filled with pink roses, white flowers and green foliage",
+        "Close-up detail: woven handle basket filled with pink roses, white flowers and green foliage"
+      ],
+      "featured": true,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "blush-garden-roses",
+      "slug": "blush-garden-roses",
+      "name": "Blush Garden Roses",
+      "category": "Roses",
+      "price": 279,
+      "compareAtPrice": 309,
+      "rating": 4.9,
+      "reviewCount": 42,
+      "stock": 15,
+      "badge": "Best Seller",
+      "tags": [
+        "roses",
+        "romantic",
+        "pink"
+      ],
+      "description": "Soft pink garden roses with beautifully layered petals. An effortlessly romantic gesture, with no occasion needed.",
+      "details": [
+        "Twelve premium pink garden roses",
+        "Hand-tied with seasonal foliage",
+        "Recyclable signature wrapping",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/blush-garden-roses.webp",
+        "assets/img/optimized/blush-garden-roses-detail.webp"
+      ],
+      "imageAlt": "Soft pink garden roses with delicately layered petals and fresh green leaves",
+      "imagesAlt": [
+        "Soft pink garden roses with delicately layered petals and fresh green leaves",
+        "Close-up detail: soft pink garden roses with delicately layered petals and fresh green leaves"
+      ],
+      "featured": true,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "classic-red-roses",
+      "slug": "classic-red-roses",
+      "name": "Classic Red Roses",
+      "category": "Roses",
+      "price": 249,
+      "rating": 4.9,
+      "reviewCount": 57,
+      "stock": 18,
+      "badge": "Most Loved",
+      "tags": [
+        "roses",
+        "romantic",
+        "anniversary"
+      ],
+      "description": "A timeless expression of love. Rich red roses, fresh foliage and considered wrapping let the flowers do the talking.",
+      "details": [
+        "Twelve fresh red roses",
+        "Hand-tied with seasonal foliage",
+        "Complimentary handwritten gift card",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/classic-red-roses.webp",
+        "assets/img/optimized/classic-red-roses-detail.webp"
+      ],
+      "imageAlt": "Deep red roses in full bloom with fresh green stems",
+      "imagesAlt": [
+        "Deep red roses in full bloom with fresh green stems",
+        "Close-up detail: deep red roses in full bloom with fresh green stems"
+      ],
+      "featured": false,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "apricot-rose-bouquet",
+      "slug": "apricot-rose-bouquet",
+      "name": "Apricot Rose Bouquet",
+      "category": "Roses",
+      "price": 229,
+      "compareAtPrice": 259,
+      "rating": 4.8,
+      "reviewCount": 23,
+      "stock": 11,
+      "badge": "",
+      "tags": [
+        "roses",
+        "peach",
+        "thank-you"
+      ],
+      "description": "Warm apricot roses with softly unfurling petals. A thoughtful way to say thank you, thinking of you, or simply hello.",
+      "details": [
+        "Twelve fresh apricot roses",
+        "Wrapped by hand in recyclable paper",
+        "Complimentary handwritten gift card",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/apricot-rose-bouquet.webp",
+        "assets/img/optimized/apricot-rose-bouquet-detail.webp"
+      ],
+      "imageAlt": "A close view of warm peach and apricot roses with layered petals",
+      "imagesAlt": [
+        "A close view of warm peach and apricot roses with layered petals",
+        "Close-up detail: a close view of warm peach and apricot roses with layered petals"
+      ],
+      "featured": false,
+      "isNew": true,
+      "imageWidth": 960
+    },
+    {
+      "id": "sunrise-orange-roses",
+      "slug": "sunrise-orange-roses",
+      "name": "Sunrise Orange Roses",
+      "category": "Roses",
+      "price": 219,
+      "rating": 4.7,
+      "reviewCount": 16,
+      "stock": 10,
+      "badge": "New",
+      "tags": [
+        "roses",
+        "orange",
+        "birthday"
+      ],
+      "description": "A bright bunch of orange roses with a little sunshine in every petal. Send a warm welcome or a very happy birthday.",
+      "details": [
+        "Twelve bright orange roses",
+        "Hand-tied by our florist",
+        "Includes a complimentary seed packet",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/sunrise-orange-roses.webp",
+        "assets/img/optimized/sunrise-orange-roses-detail.webp"
+      ],
+      "imageAlt": "Vibrant orange roses surrounded by dark green leaves",
+      "imagesAlt": [
+        "Vibrant orange roses surrounded by dark green leaves",
+        "Close-up detail: vibrant orange roses surrounded by dark green leaves"
+      ],
+      "featured": false,
+      "isNew": true,
+      "imageWidth": 960
+    },
+    {
+      "id": "cloud-nine-peonies",
+      "slug": "cloud-nine-peonies",
+      "name": "Cloud Nine Peonies",
+      "category": "Peonies",
+      "price": 349,
+      "rating": 4.9,
+      "reviewCount": 31,
+      "stock": 7,
+      "badge": "Seasonal",
+      "tags": [
+        "peonies",
+        "premium",
+        "soft"
+      ],
+      "description": "Cloud-soft peonies in cream and blush, selected for their generous blooms and delicate texture. A quietly luxurious treat.",
+      "details": [
+        "Five premium seasonal peony stems",
+        "Delivered in bud or just beginning to open",
+        "Colour varies naturally from stem to stem",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/cloud-nine-peonies.webp",
+        "assets/img/optimized/cloud-nine-peonies-detail.webp"
+      ],
+      "imageAlt": "Large cream and pale pink peony flowers with gently ruffled petals",
+      "imagesAlt": [
+        "Large cream and pale pink peony flowers with gently ruffled petals",
+        "Close-up detail: large cream and pale pink peony flowers with gently ruffled petals"
+      ],
+      "featured": false,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "pink-peony-wrap",
+      "slug": "pink-peony-wrap",
+      "name": "Pink Peony Wrap",
+      "category": "Peonies",
+      "price": 299,
+      "compareAtPrice": 329,
+      "rating": 4.8,
+      "reviewCount": 24,
+      "stock": 8,
+      "badge": "New",
+      "tags": [
+        "peonies",
+        "pink",
+        "gift"
+      ],
+      "description": "A petite bundle of pink peonies, tucked into crisp paper. Beautiful on a bedside table, even better as a surprise.",
+      "details": [
+        "Five fresh pink peonies",
+        "Minimal recyclable paper wrap",
+        "Complimentary handwritten gift card",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/pink-peony-wrap.webp",
+        "assets/img/optimized/pink-peony-wrap-detail.webp"
+      ],
+      "imageAlt": "Round pink peony blooms gathered in a simple pale paper wrap",
+      "imagesAlt": [
+        "Round pink peony blooms gathered in a simple pale paper wrap",
+        "Close-up detail: round pink peony blooms gathered in a simple pale paper wrap"
+      ],
+      "featured": true,
+      "isNew": true,
+      "imageWidth": 960
+    },
+    {
+      "id": "ivory-peonies",
+      "slug": "ivory-peonies",
+      "name": "Ivory Peonies",
+      "category": "Peonies",
+      "price": 329,
+      "rating": 4.8,
+      "reviewCount": 18,
+      "stock": 6,
+      "badge": "",
+      "tags": [
+        "peonies",
+        "white",
+        "elegant"
+      ],
+      "description": "Beautiful ivory peonies with full, ruffled heads. A graceful bunch that brings a little calm to any room.",
+      "details": [
+        "Five premium ivory peonies",
+        "Seasonal flowers selected for freshness",
+        "Includes a complimentary seed packet",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/ivory-peonies.webp",
+        "assets/img/optimized/ivory-peonies-detail.webp"
+      ],
+      "imageAlt": "Fresh white peonies in soft natural light with green leaves",
+      "imagesAlt": [
+        "Fresh white peonies in soft natural light with green leaves",
+        "Close-up detail: fresh white peonies in soft natural light with green leaves"
+      ],
+      "featured": false,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "pastel-tulip-bunch",
+      "slug": "pastel-tulip-bunch",
+      "name": "Pastel Tulip Bunch",
+      "category": "Tulips",
+      "price": 189,
+      "rating": 4.8,
+      "reviewCount": 33,
+      "stock": 16,
+      "badge": "Best Seller",
+      "tags": [
+        "tulips",
+        "spring",
+        "colourful"
+      ],
+      "description": "An easy, cheerful mix of ivory, coral and red tulips. Pop them in a favourite vase and watch them find their own shape.",
+      "details": [
+        "Ten fresh mixed-colour tulips",
+        "Hand-tied in simple paper",
+        "Tulips continue to grow and move in the vase",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/pastel-tulips.webp",
+        "assets/img/optimized/pastel-tulips-detail.webp"
+      ],
+      "imageAlt": "A bunch of coral, red and ivory tulips against a pale grey background",
+      "imagesAlt": [
+        "A bunch of coral, red and ivory tulips against a pale grey background",
+        "Close-up detail: a bunch of coral, red and ivory tulips against a pale grey background"
+      ],
+      "featured": true,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "ivory-tulip-gift",
+      "slug": "ivory-tulip-gift",
+      "name": "Ivory Tulip Gift",
+      "category": "Gifts",
+      "price": 239,
+      "rating": 4.7,
+      "reviewCount": 14,
+      "stock": 10,
+      "badge": "New",
+      "tags": [
+        "tulips",
+        "white",
+        "gift"
+      ],
+      "description": "A thoughtful bundle of ivory tulips, finished with a soft ribbon and your own handwritten message. Small gesture, lovely feeling.",
+      "details": [
+        "Ten fresh ivory tulips",
+        "Finished with a reusable ribbon",
+        "Complimentary handwritten gift card",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/ivory-tulip-gift.webp",
+        "assets/img/optimized/ivory-tulip-gift-detail.webp"
+      ],
+      "imageAlt": "Cream tulips carried by white ribbon against a dark jacket",
+      "imagesAlt": [
+        "Cream tulips carried by white ribbon against a dark jacket",
+        "Close-up detail: cream tulips carried by white ribbon against a dark jacket"
+      ],
+      "featured": false,
+      "isNew": true,
+      "imageWidth": 960
+    },
+    {
+      "id": "meadow-morning-basket",
+      "slug": "meadow-morning-basket",
+      "name": "Meadow Morning Basket",
+      "category": "Baskets",
+      "price": 389,
+      "compareAtPrice": 419,
+      "rating": 4.9,
+      "reviewCount": 22,
+      "stock": 7,
+      "badge": "New",
+      "tags": [
+        "basket",
+        "soft",
+        "home"
+      ],
+      "description": "Cream roses, tiny blush flowers and airy foliage in a woven basket. A little piece of the garden, ready to enjoy.",
+      "details": [
+        "Reusable woven basket",
+        "Arranged with fresh roses and seasonal flowers",
+        "Ready to display, no vase needed",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/meadow-morning-basket.webp",
+        "assets/img/optimized/meadow-morning-basket-detail.webp"
+      ],
+      "imageAlt": "Small woven basket filled with cream roses, blush flowers and delicate greenery",
+      "imagesAlt": [
+        "Small woven basket filled with cream roses, blush flowers and delicate greenery",
+        "Close-up detail: small woven basket filled with cream roses, blush flowers and delicate greenery"
+      ],
+      "featured": true,
+      "isNew": true,
+      "imageWidth": 960
+    },
+    {
+      "id": "little-love-posy",
+      "slug": "little-love-posy",
+      "name": "Little Love Posy",
+      "category": "Gifts",
+      "price": 159,
+      "rating": 4.8,
+      "reviewCount": 29,
+      "stock": 14,
+      "badge": "",
+      "tags": [
+        "roses",
+        "small",
+        "gift"
+      ],
+      "description": "A sweet little arrangement of red roses, white flowers and fragrant foliage. For the moments that deserve a thoughtful touch.",
+      "details": [
+        "Petite arrangement of red roses and white blooms",
+        "Includes a simple reusable container",
+        "Complimentary handwritten gift card",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/little-love-posy.webp",
+        "assets/img/optimized/little-love-posy-detail.webp"
+      ],
+      "imageAlt": "Small arrangement of red roses and white flowers in a pale vase",
+      "imagesAlt": [
+        "Small arrangement of red roses and white flowers in a pale vase",
+        "Close-up detail: small arrangement of red roses and white flowers in a pale vase"
+      ],
+      "featured": false,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "forever-cloud-bouquet",
+      "slug": "forever-cloud-bouquet",
+      "name": "Forever Cloud Bouquet",
+      "category": "Dried Flowers",
+      "price": 269,
+      "rating": 4.7,
+      "reviewCount": 17,
+      "stock": 9,
+      "badge": "Long Lasting",
+      "tags": [
+        "dried",
+        "preserved",
+        "neutral"
+      ],
+      "description": "An airy bouquet of preserved and dried stems in soft, natural tones. A low-maintenance favourite to enjoy well beyond the moment.",
+      "details": [
+        "Preserved and naturally dried stems",
+        "No water required; keep out of direct sunlight",
+        "Each bouquet has natural variations",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/forever-cloud-bouquet.webp",
+        "assets/img/optimized/forever-cloud-bouquet-detail.webp"
+      ],
+      "imageAlt": "An airy arrangement of pale dried flowers held by a woman in a blue coat",
+      "imagesAlt": [
+        "An airy arrangement of pale dried flowers held by a woman in a blue coat",
+        "Close-up detail: an airy arrangement of pale dried flowers held by a woman in a blue coat"
+      ],
+      "featured": false,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "florists-choice",
+      "slug": "florists-choice",
+      "name": "The Florist?s Choice",
+      "category": "Bouquets",
+      "price": 289,
+      "rating": 4.9,
+      "reviewCount": 38,
+      "stock": 11,
+      "badge": "Florist Pick",
+      "tags": [
+        "seasonal",
+        "surprise",
+        "gift"
+      ],
+      "description": "Leave it to our florists. A fresh mix of garden roses, seasonal flowers and greenery, chosen for the prettiest combination of the day.",
+      "details": [
+        "Seasonal blooms chosen by our florist",
+        "Each bouquet is unique; photo shows our style",
+        "Includes a complimentary seed packet",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/florists-choice.webp",
+        "assets/img/optimized/florists-choice-detail.webp"
+      ],
+      "imageAlt": "Hand-tied pink garden roses with cream flowers and fresh green foliage",
+      "imagesAlt": [
+        "Hand-tied pink garden roses with cream flowers and fresh green foliage",
+        "Close-up detail: hand-tied pink garden roses with cream flowers and fresh green foliage"
+      ],
+      "featured": true,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "lavender-fields",
+      "slug": "lavender-fields",
+      "name": "Lavender Fields",
+      "category": "Dried Flowers",
+      "price": 179,
+      "rating": 4.7,
+      "reviewCount": 12,
+      "stock": 13,
+      "badge": "",
+      "tags": [
+        "dried",
+        "purple",
+        "long-lasting"
+      ],
+      "description": "A relaxed bundle of purple statice with a wildflower feel. Enjoy it fresh, then let it dry naturally for a lasting touch of colour.",
+      "details": [
+        "Fresh statice suitable for air drying",
+        "Hang upside down in a dry, shaded place to preserve",
+        "Wrapped in recyclable paper",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/lavender-fields.webp",
+        "assets/img/optimized/lavender-fields-detail.webp"
+      ],
+      "imageAlt": "A bundle of delicate purple statice flowers on a pale wooden table",
+      "imagesAlt": [
+        "A bundle of delicate purple statice flowers on a pale wooden table",
+        "Close-up detail: a bundle of delicate purple statice flowers on a pale wooden table"
+      ],
+      "featured": false,
+      "isNew": false,
+      "imageWidth": 960
+    },
+    {
+      "id": "garden-gathering",
+      "slug": "garden-gathering",
+      "name": "Garden Gathering",
+      "category": "Bouquets",
+      "price": 319,
+      "rating": 4.9,
+      "reviewCount": 21,
+      "stock": 8,
+      "badge": "New",
+      "tags": [
+        "seasonal",
+        "garden",
+        "premium"
+      ],
+      "description": "Loose, lovely and a little unexpected. An abundant arrangement of cream roses, purple accents and freshly gathered greenery.",
+      "details": [
+        "Garden-inspired seasonal arrangement",
+        "Includes a simple reusable vase",
+        "Complimentary handwritten gift card",
+        "Same-day Dubai delivery when ordered before 2pm"
+      ],
+      "images": [
+        "assets/img/optimized/garden-gathering.webp",
+        "assets/img/optimized/garden-gathering-detail.webp"
+      ],
+      "imageAlt": "Airy arrangement of cream roses, purple flowers and long green stems",
+      "imagesAlt": [
+        "Airy arrangement of cream roses, purple flowers and long green stems",
+        "Close-up detail: airy arrangement of cream roses, purple flowers and long green stems"
+      ],
+      "featured": false,
+      "isNew": true,
+      "imageWidth": 960
+    }
+  ]
+}

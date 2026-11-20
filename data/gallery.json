@@ -1,0 +1,152 @@
+{
+  "categories": [
+    "Bouquets",
+    "Baskets",
+    "Roses",
+    "Peonies",
+    "Tulips",
+    "Dried Flowers"
+  ],
+  "items": [
+    {
+      "id": "garden-rose-posy",
+      "title": "A little garden romance",
+      "category": "Roses",
+      "image": "assets/img/optimized/garden-rose-posy.webp",
+      "imageAlt": "Ivory and lavender roses arranged in a round bouquet on a green lawn"
+    },
+    {
+      "id": "little-love-posy",
+      "title": "A small, thoughtful gesture",
+      "category": "Roses",
+      "image": "assets/img/optimized/little-love-posy.webp",
+      "imageAlt": "Red roses and white flowers in a small pale vase"
+    },
+    {
+      "id": "sunrise-orange-roses",
+      "title": "A little sunshine",
+      "category": "Roses",
+      "image": "assets/img/optimized/sunrise-orange-roses.webp",
+      "imageAlt": "A vivid arrangement of orange roses with dark green foliage"
+    },
+    {
+      "id": "pastel-tulips",
+      "title": "Tulips, just because",
+      "category": "Tulips",
+      "image": "assets/img/optimized/pastel-tulips.webp",
+      "imageAlt": "Coral and cream tulips standing against a pale wall"
+    },
+    {
+      "id": "ivory-tulip-gift",
+      "title": "Simple, considered gifts",
+      "category": "Tulips",
+      "image": "assets/img/optimized/ivory-tulip-gift.webp",
+      "imageAlt": "Cream tulips hanging from a ribbon against a dark jacket"
+    },
+    {
+      "id": "forever-cloud-bouquet",
+      "title": "Beauty that stays",
+      "category": "Dried Flowers",
+      "image": "assets/img/optimized/forever-cloud-bouquet.webp",
+      "imageAlt": "A woman holding a soft bouquet of pale dried flowers"
+    },
+    {
+      "id": "cloud-nine-peonies",
+      "title": "Petals like clouds",
+      "category": "Peonies",
+      "image": "assets/img/optimized/cloud-nine-peonies.webp",
+      "imageAlt": "Cream and blush peonies with full, ruffled petals"
+    },
+    {
+      "id": "lavender-fields",
+      "title": "Purple, naturally",
+      "category": "Dried Flowers",
+      "image": "assets/img/optimized/lavender-fields.webp",
+      "imageAlt": "Purple statice flowers on a pale wooden table"
+    },
+    {
+      "id": "wild-garden-roses",
+      "title": "A touch of the wild",
+      "category": "Roses",
+      "image": "assets/img/optimized/wild-garden-roses.webp",
+      "imageAlt": "Hot pink garden roses growing on delicate green stems"
+    },
+    {
+      "id": "classic-red-roses",
+      "title": "Some things are timeless",
+      "category": "Roses",
+      "image": "assets/img/optimized/classic-red-roses.webp",
+      "imageAlt": "Deep red roses open in soft natural light"
+    },
+    {
+      "id": "apricot-rose-bouquet",
+      "title": "The warmest hello",
+      "category": "Roses",
+      "image": "assets/img/optimized/apricot-rose-bouquet.webp",
+      "imageAlt": "Soft apricot roses arranged together in a generous bunch"
+    },
+    {
+      "id": "blush-garden-vase",
+      "title": "Gathered with care",
+      "category": "Bouquets",
+      "image": "assets/img/optimized/blush-garden-vase.webp",
+      "imageAlt": "Cream and blush roses in a dark vase with airy green foliage"
+    },
+    {
+      "id": "flowers-to-go",
+      "title": "Flowers for the everyday",
+      "category": "Bouquets",
+      "image": "assets/img/optimized/flowers-to-go.webp",
+      "imageAlt": "A person carrying a wrapped bouquet of white flowers outdoors"
+    },
+    {
+      "id": "ivory-peonies",
+      "title": "Quietly beautiful",
+      "category": "Peonies",
+      "image": "assets/img/optimized/ivory-peonies.webp",
+      "imageAlt": "White peonies glowing in soft natural light"
+    },
+    {
+      "id": "florists-choice",
+      "title": "Our kind of colour",
+      "category": "Bouquets",
+      "image": "assets/img/optimized/florists-choice.webp",
+      "imageAlt": "Pink garden roses with cream flowers and seasonal greenery"
+    },
+    {
+      "id": "garden-gathering",
+      "title": "A garden, brought inside",
+      "category": "Bouquets",
+      "image": "assets/img/optimized/garden-gathering.webp",
+      "imageAlt": "An airy floral arrangement with ivory roses, purple flowers and long stems"
+    },
+    {
+      "id": "meadow-morning-basket",
+      "title": "A basket of good things",
+      "category": "Baskets",
+      "image": "assets/img/optimized/meadow-morning-basket.webp",
+      "imageAlt": "Cream and blush roses in a small woven basket"
+    },
+    {
+      "id": "pink-peony-wrap",
+      "title": "Pretty in peony",
+      "category": "Peonies",
+      "image": "assets/img/optimized/pink-peony-wrap.webp",
+      "imageAlt": "Pink peonies tucked into a simple pale paper wrap"
+    },
+    {
+      "id": "blush-garden-roses",
+      "title": "Soft blush moments",
+      "category": "Roses",
+      "image": "assets/img/optimized/blush-garden-roses.webp",
+      "imageAlt": "Close view of pink garden roses with layered petals"
+    },
+    {
+      "id": "spring-garden",
+      "title": "A new season begins",
+      "category": "Tulips",
+      "image": "assets/img/optimized/spring-garden.webp",
+      "imageAlt": "Pink, yellow and purple tulips growing in a sunny garden"
+    }
+  ]
+}
