@@ -1,6 +1,18 @@
 import { getCatalog, getCart, getWishlist, formatPrice, calculateTotals, addToCart, changeQuantity, toggleWishlist, icon, escapeHTML as e, toast } from './store.js';
 import { productCard, emptyState, errorState } from './components.js';
 
+// Block page-level inspection shortcuts; browser menus remain outside the site's control.
+const inspectionKeys = new Set(['i', 'j', 'c', 'k']);
+document.addEventListener('contextmenu', event => event.preventDefault(), { capture: true });
+document.addEventListener('keydown', event => {
+  const key = event.key.toLowerCase();
+  const ctrlShift = event.ctrlKey && event.shiftKey && !event.altKey && !event.metaKey;
+  const cmdOption = event.metaKey && event.altKey && !event.ctrlKey;
+  const inspect = inspectionKeys.has(key) && (ctrlShift || cmdOption);
+  const viewSource = key === 'u' && (cmdOption || (event.ctrlKey && !event.shiftKey && !event.altKey && !event.metaKey));
+  if (key === 'f12' || inspect || viewSource) event.preventDefault();
+}, { capture: true });
+
 // Leave social URLs empty until the studio has real public accounts.
 const socials = { instagram: '', facebook: '', x: '', linkedin: '' };
 const page = location.pathname.split('/').pop() || 'index.html';
