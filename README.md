@@ -8,6 +8,8 @@ Features include catalog search, category filters, sorting, product photo galler
 
 Cormorant Garamond and DM Sans are self-hosted Google Fonts with `font-display: swap`; their licenses are included with the font assets. No third-party requests are needed to load the site.
 
+When updating the shared CSS, also update the `?v=` value on every page's stylesheet link so browsers fetch the new version after deployment.
+
 ## Run locally
 
 Serve the repository over HTTP so JSON and ES modules load:
