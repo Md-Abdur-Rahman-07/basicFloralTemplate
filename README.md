@@ -20,7 +20,7 @@ Open `http://localhost:8000`. No installation or build is required. Publish the 
 
 ## Catalog
 
-`data/products.json` is the single source for every home/shop/product/cart/checkout arrangement. Its root holds `currency`, `categories`, and `products`. Each product includes `id`, `slug`, `name`, `category`, `price`, optional `compareAtPrice`, `rating`, `reviewCount`, `stock`, `badge`, `tags`, `description`, `details`, `images`, `imagesAlt`, `featured`, and `isNew`. Keep IDs and slugs unique; image paths are relative to the repository root. Every `.webp` image has a `-480.webp` responsive variant. Hero images also have a `-960.webp` variant.
+`data/products.json` is the single source for every home/shop/product/cart/checkout arrangement. Its root holds `currency`, `categories`, and `products`. Each product includes `id`, `slug`, `name`, `category`, `price`, optional `compareAtPrice`, `rating`, `reviewCount`, `stock`, `badge`, `tags`, `description`, `details`, `images`, `imagesAlt`, `featured`, and `isNew`. Keep IDs and slugs unique; image paths are relative to the repository root. Each catalog/gallery source image has a `-480.webp` responsive variant. Product photos also have `-160.webp` thumbnails and `-720.webp` intermediate sources. The hero has a `-960.webp` variant.
 
 `data/gallery.json` supplies the separate inspiration gallery. `assets/js/store.js` contains cart/storage helpers and delivery settings (free from 350; otherwise 25). Currency comes only from the catalog. Browser storage uses `aspect-cart` and `aspect-wishlist`, with in-memory fallback when storage is unavailable. Social URLs remain empty in the configuration in `assets/js/app.js`.
 

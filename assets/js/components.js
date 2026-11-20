@@ -2,7 +2,8 @@ import { escapeHTML as e, formatPrice, getWishlist, icon } from './store.js';
 
 export function responsiveImage(path, alt, options = {}) {
   const small = path.replace(/\.webp$/, '-480.webp');
-  return `<img src="${e(path)}" srcset="${e(small)} 480w, ${e(path)} 960w" sizes="${e(options.sizes || '(max-width: 600px) 46vw, (max-width: 1000px) 30vw, 280px')}" alt="${e(alt)}" width="${options.width || 960}" height="${options.height || 1200}" loading="${options.eager ? 'eager' : 'lazy'}" decoding="async" ${options.eager ? 'fetchpriority="high"' : ''}>`;
+  const medium = options.medium ? `${e(path.replace(/\.webp$/, '-720.webp'))} 720w, ` : '';
+  return `<img src="${e(path)}" srcset="${e(small)} 480w, ${medium}${e(path)} 960w" sizes="${e(options.sizes || '(max-width: 600px) 46vw, (max-width: 1000px) 30vw, 280px')}" alt="${e(alt)}" width="${options.width || 960}" height="${options.height || 1200}" loading="${options.eager ? 'eager' : 'lazy'}" decoding="async" ${options.eager ? 'fetchpriority="high"' : ''}>`;
 }
 export function productCard(product) {
   const saved = getWishlist().includes(product.id);

@@ -45,7 +45,7 @@ function updateCounts() {
     const saved = getWishlist().includes(button.dataset.wish);
     button.classList.toggle('is-saved', saved);
     button.setAttribute('aria-pressed', String(saved));
-    button.setAttribute('aria-label', button.getAttribute('aria-label').replace(/^(Save|Remove) /, saved ? 'Remove ' : 'Save ').replace(/ (to|from) favourites$/, saved ? ' from favourites' : ' to favourites'));
+    if (!button.classList.contains('detail-wish')) button.setAttribute('aria-label', button.getAttribute('aria-label').replace(/^(Save|Remove) /, saved ? 'Remove ' : 'Save ').replace(/ (to|from) favourites$/, saved ? ' from favourites' : ' to favourites'));
   });
 }
 async function renderCart() {
